@@ -1,4 +1,7 @@
 <div class="grid">
+<!-- .grid-sizer empty element, only used for element sizing -->
+<div class="grid-sizer"></div>
+
 {% for asset in section.assets -%}
   {%- if asset is matching("[.](jpg|png|JPG)$") -%}
     {% set meta = get_image_metadata(path=asset) %}

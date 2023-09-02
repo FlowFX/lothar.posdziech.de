@@ -1,8 +1,11 @@
+.grid-sizer {
+    width: 10vw;
+}
+
 .grid-item {
     float: left;
-    width: 198px;
-    height: 198px;
-    border: 1px solid #fff;
+    width: 20vw;
+    height: 20vw;
 }
 
 img {
@@ -11,15 +14,15 @@ img {
 }
 
 .grid-item--width3 {
-    width: 298px;
+    width: 30vw;
 }
 .grid-item--width4 {
-    width: 398px;
+    width: 40vw;
 }
 
 .grid-item--height3 {
-    height: 298px;
+    height: 30vw;
 }
 .grid-item--height4 {
-    height: 398px;
+    height: 40vw;
 }
