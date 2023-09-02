@@ -1,5 +1,5 @@
 +++
-title = "Homepage"
+title = "Lothar Posdziech - Ausstellung 2020"
 +++
 
-Here's the home page
+{{ gallery() }}
