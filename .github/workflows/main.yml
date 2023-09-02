@@ -13,8 +13,6 @@ jobs:
         uses: kytta/zola-build-pages@v1
         with:
           zola-version: "0.17.2"
-      - name: Delete unprocessed images
-        run: rm public/*.JPG
       - name: Deploy site
         if: ${{ github.ref_name == 'main' }}
         uses: burnett01/rsync-deployments@5.2.1
