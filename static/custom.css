@@ -1,0 +1,14 @@
+.grid-item {
+    float:
+    width: 148px;
+    height: 148px;
+    border: 1px solid #fff;
+}
+
+.grid-item--width2 {
+    width: 298px;
+}
+
+.grid-item--height2 {
+    height: 298px;
+}
