@@ -4,8 +4,6 @@
     {% set meta = get_image_metadata(path=asset) %}
 
     {% set class = "" %}
-    {% set resize_width = 400 %}
-    {% set resize_height = 400 %}
 
     {% if (meta.width / meta.height) > 1.1 %}
       {% set class = "grid-item--width3" %}
@@ -17,7 +15,7 @@
       {% set class = "grid-item--height4" %}
     {% endif %}
 
-    {% set image = resize_image(path=asset, width=resize_width, height=resize_height, op="fit") %}
+    {% set image = resize_image(path=asset, width=config.extra.image_size, height=config.extra.image_size, op="fit") %}
 
     <div class="grid-item {{ class }}">
       <img src="{{ image.url }}" />
