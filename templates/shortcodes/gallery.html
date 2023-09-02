@@ -18,7 +18,9 @@
     {% set image = resize_image(path=asset, width=config.extra.image_size, height=config.extra.image_size, op="fit") %}
 
     <div class="grid-item {{ class }}">
-      <img src="{{ image.url }}" />
+      <a href="{{ image.url }}" data-lightbox="image">
+        <img src="{{ image.url }}" />
+      </a>
     </div>
 
   {%- endif %}
