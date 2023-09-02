@@ -2,6 +2,7 @@ $(document).ready(function () {
   $(".grid").masonry({
     // options
     itemSelector: ".grid-item",
-    columnWidth: 150,
+    columnWidth: 100,
+    columnHeight: 100,
   });
 });

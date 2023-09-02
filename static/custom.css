@@ -1,14 +1,25 @@
 .grid-item {
-    float:
-    width: 148px;
-    height: 148px;
+    float: left;
+    width: 198px;
+    height: 198px;
     border: 1px solid #fff;
 }
 
-.grid-item--width2 {
-    width: 298px;
+img {
+    width: 100%;
+    height: 100%;
 }
 
-.grid-item--height2 {
+.grid-item--width3 {
+    width: 298px;
+}
+.grid-item--width4 {
+    width: 398px;
+}
+
+.grid-item--height3 {
     height: 298px;
+}
+.grid-item--height4 {
+    height: 398px;
 }
